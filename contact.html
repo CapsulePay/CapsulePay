@@ -30,6 +30,40 @@
     <a href="#" class="button" style="margin-left: 10px;">Request a Demo</a>
 
     <br><br><br>
+<section class="contact-section">
+  <h2>Contact Us</h2>
+
+  <form action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST" class="contact-form">
+    <!-- FormSubmit settings -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+
+    <!-- Form fields -->
+    <label>Your Name *</label>
+    <input type="text" name="name" required>
+
+    <label>Your Email *</label>
+    <input type="email" name="email" required>
+
+    <label>Phone Number</label>
+    <input type="text" name="phone">
+
+    <label>Business Name</label>
+    <input type="text" name="business">
+
+    <label>Select an Option *</label>
+    <select name="reason" required>
+      <option value="Apply for Merchant Account">Apply for Merchant Account</option>
+      <option value="Request Demo">Request Demo</option>
+      <option value="General Question">General Question</option>
+    </select>
+
+    <label>Your Message</label>
+    <textarea name="message" rows="4"></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
 
     <h3>Terms & Conditions</h3>
     <p>By using Capsule Payments services, you agree to our processing policies, risk terms, compliance requirements, and merchant obligations.</p>
